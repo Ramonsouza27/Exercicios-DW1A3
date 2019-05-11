@@ -1,7 +1,39 @@
-figure{
-    align-content: center;
+img{
+    width: 400px;
+    height: 300px;
 }
 
 p{
     text-align: justify;
+}
+
+.Z4{
+    background-color: red;
+}
+
+.G4{
+    background-color: green;
+}
+
+.meio{
+    background-color: lightblue;
+}
+
+figure{
+    text-align: center;
+}
+
+table{
+    margin-left: 43%;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+body{
+    margin-left:80px;
+    margin-right:80px;
+    background-color: antiquewhite;
 }
