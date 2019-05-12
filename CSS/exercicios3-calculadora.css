@@ -1,0 +1,35 @@
+.grid-container {
+    display: grid;
+    padding: 20px;
+    margin-right:82%;  
+    grid-template-columns: 45px 45px 45px 45px;
+    grid-template-rows: 35px 35px 35px 35px 35px 35px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-auto-flow: row;
+    background-color: rgba(104, 101, 101, 0.466);
+  }
+
+  #entrada{
+    grid-column: 1/5;
+    text-align: right;   
+  }
+
+  #idmais{
+    grid-row: 5/7;
+    grid-column: 4;
+    background-color: rgba(104, 101, 101, 0.466);
+  }
+
+  #id0{
+    grid-row: 6;
+    grid-column: 1/3;
+    background-color: rgba(104, 101, 101, 0.466);
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.466);
+    border: 1px solid rgba(80, 79, 79, 0.8);
+    font-size: 17px;
+    text-align: center;
+  }
