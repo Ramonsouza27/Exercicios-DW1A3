@@ -5,14 +5,15 @@
         <meta charset="utf-8"/>
         <title>Calculadora de IMC</title>
     </Head>
+    <link rel="stylesheet" type="text/css" href="imc.css"></style>
     <script src="imc.js"></script>
-    <body>
+    <body>        
         <form id="formulario">
             <fieldset>
-                <legend>Calculo do IMC</legend>
-                <p>IMC</p>
-                <p>PESO: <input id="peso" type="number" pattern="[0-9]+$"></input></p>        
-                <p>ALTURA: <input type="number" id="altura" pattern="[0-9]+$"></input></p>
+                <h1>IMC</h1>
+                <hr>
+                <p>PESO: <input id="peso" type="number" pattern="[0-9]+$"></input> KG</p>        
+                <p>ALTURA: <input type="number" id="altura" pattern="[0-9]+$"></input> M</p>
                 <button type="submit" onclick=calculo()>Calcular</button>
                 <p id="resposta"> </p>
             </fieldset>
