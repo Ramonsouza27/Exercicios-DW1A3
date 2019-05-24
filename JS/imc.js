@@ -4,7 +4,7 @@ function calculo(){
     var imc = peso/(altura*altura);
     var pesoideal = 24.9*(altura*altura);
 
-    if(imc>=16 && imc<=16.9){
+    if(imc<=16.9){
         alert("Seu imc é:"+imc+".\nVocê está muito abaixo do peso.\nSeu peso ideal é: "+pesoideal);
     }
     if(imc>16.9 && imc<=18.4){
