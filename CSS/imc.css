@@ -1,0 +1,22 @@
+fieldset{
+    background-color: bisque;
+    text-align: center;
+    margin-right: 380pt;
+    margin-left: 380pt;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#peso{
+    margin-left: 20pt;
+}
+
+#altura{
+    margin-left: 5pt;
+}
