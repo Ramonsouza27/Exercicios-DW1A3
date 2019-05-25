@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
-    <Head>
+    <head>
         <meta charset="utf-8"/>
         <title>Calculadora de IMC</title>
-    </Head>
-    <link rel="stylesheet" type="text/css" href="imc.css"></style>
+    </head>
+    <link rel="stylesheet" type="text/css" href="imc.css">
     <script src="imc.js"></script>
     <body>        
         <form id="formulario">
@@ -13,8 +13,8 @@
                 <h1>IMC</h1>
                 <hr>
                 <p>PESO: <input id="peso" type="number" pattern="[0-9]+$"></input> KG</p>        
-                <p>ALTURA: <input type="number" id="altura" pattern="[0-9]+$"></input> M</p>
-                <button type="submit" onclick=calculo()>Calcular</button>
+                <p>ALTURA: <input type="number" id="altura" pattern="[0-9]+$"></input> m</p>
+                <button type="submit" onclick="Resultado()">Calcular</button>
                 <p id="resposta"> </p>
             </fieldset>
         </form> 
