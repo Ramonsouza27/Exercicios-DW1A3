@@ -1,8 +1,8 @@
-function calculo(){
+function Resultado(){
     var peso = document.getElementById("peso").value;
     var altura = document.getElementById("altura").value;
-    var imc = peso/(altura*altura);
-    var pesoideal = 24.9*(altura*altura);
+    var imc = calculoimc(peso,altura);
+    var pesoideal = calculopesoideal(altura);
 
     if(imc<=16.9){
         alert("Seu imc é:"+imc+".\nVocê está muito abaixo do peso.\nSeu peso ideal é: "+pesoideal);
@@ -26,4 +26,14 @@ function calculo(){
         alert("Seu imc é:"+imc+".\nVocê está em obesidade Grau III.\nSeu peso ideal é: "+pesoideal);
     }
    
+}
+
+function calculoimc(peso,altura){
+    var imc = peso/(altura*altura);
+    return imc.toFixed(2);
+}
+
+function calculopesoideal(altura){
+    var pesoideal = 24.9*(altura*altura);
+    return pesoideal.toFixed(2);
 }
